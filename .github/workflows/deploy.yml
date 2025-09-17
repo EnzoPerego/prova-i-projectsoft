@@ -56,3 +56,4 @@ jobs:
             docker rm --force pi-projectsoft
             docker run -d -p 8080:8080 --name pi-projectsoft enzoperego/pi-projectsoft:${{ github.sha }}
 
+
